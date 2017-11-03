@@ -5,8 +5,7 @@ body {
 	font-size: 1em;
 	line-height: 1.5em;
 
-	padding-top: 40px; /* Relleno superior igual a la altura de la cabecera*/
-
+	padding-top: 50px; /* Relleno superior igual a la altura de la cabecera*/
 }
 
 header{
@@ -55,23 +54,20 @@ flex-grow: 1;
 }
 .menu li a{
   display: block;
-  padding: 4px 120px;
+  padding: 10px 60px;
   color:#fff;
   text-decoration: none;
 }
 
 @media (max-width: 768px){
-  body{
-    padding-top: 40px;
-  }
 header label{
   display: block;
 }
 .menu{
   position: absolute;
   background: #0C658A;
-  width: 100%;
-  margin-left: -100%;
+  width: 70%;
+  margin-left: -80%;
   transition: all 0.1s;
 }
 .menu ul{
